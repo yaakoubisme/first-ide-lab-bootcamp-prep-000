@@ -1,3 +1,4 @@
 public staatic File openInputFile(final String[] args){
 
 if(args == null || args.length < 1)
+throw new IllegalArgumentException("bad arguments in openInputFile(final String [] args)");
